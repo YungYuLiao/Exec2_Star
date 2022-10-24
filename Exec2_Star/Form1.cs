@@ -94,7 +94,6 @@ namespace Exec2_Star
 		private string GenerateRightStars(int row)
 		{
 			string stars = string.Empty;
-			string space = string.Empty;
 			for (int i = 1; i <= row; i++)
 			{
 				stars += new string('*', i).PadLeft(2*row-i)+"\r\n"; 
@@ -104,7 +103,6 @@ namespace Exec2_Star
 		private string GenerateMiddleStars(int row)
 		{
 			string stars = string.Empty;
-			string space = string.Empty;
 			for (int i = 1; i <= row; i++)
 			{
 				stars += new string('*', i).PadLeft(row) + "\r\n";
