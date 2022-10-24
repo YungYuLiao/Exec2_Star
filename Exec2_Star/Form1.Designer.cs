@@ -71,7 +71,7 @@
 			this.txtResult.MaxLength = 2;
 			this.txtResult.Multiline = true;
 			this.txtResult.Name = "txtResult";
-			this.txtResult.Size = new System.Drawing.Size(199, 117);
+			this.txtResult.Size = new System.Drawing.Size(199, 149);
 			this.txtResult.TabIndex = 3;
 			this.txtResult.WordWrap = false;
 			// 
@@ -111,7 +111,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(343, 219);
+			this.ClientSize = new System.Drawing.Size(343, 242);
 			this.Controls.Add(this.lblInfo);
 			this.Controls.Add(this.btmRight);
 			this.Controls.Add(this.btmMiddle);
