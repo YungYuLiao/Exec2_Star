@@ -17,7 +17,7 @@ namespace Exec2_Star
 			InitializeComponent();
 		}
 
-		private void btmLeft_Click(object sender, EventArgs e)
+		private void btnLeft_Click(object sender, EventArgs e)
 		{
 			//取得列數
 			int row = 0;
@@ -69,28 +69,6 @@ namespace Exec2_Star
 			return row;
 		}
 
-		private void btmMiddle_Click(object sender, EventArgs e)
-		{
-			//取得列數
-			int row = 0;
-			row = GetRows();
-			//生成等腰星號
-			string stars = GenerateMiddleStars(row);
-			//呈現星號
-			Display(stars);
-		}
-
-		private void btmRight_Click(object sender, EventArgs e)
-		{    
-			//取得列數
-			int row = 0;
-			row = GetRows();
-			//生成靠右星號
-			string stars = GenerateRightStars(row);
-			//呈現星號
-			Display(stars);
-		}
-
 		private string GenerateRightStars(int row)
 		{
 			string stars = string.Empty;
@@ -108,6 +86,29 @@ namespace Exec2_Star
 				stars += new string('*', i).PadLeft(row) + "\r\n";
 			}
 			return stars;
+		}
+
+		private void btnMiddle_Click(object sender, EventArgs e)
+		{
+			//取得列數
+			int row = 0;
+			row = GetRows();
+			//生成等腰星號
+			string stars = GenerateMiddleStars(row);
+			//呈現星號
+			Display(stars);
+		}
+
+		private void btnRight_Click(object sender, EventArgs e)
+		{
+			//取得列數
+			int row = 0;
+			row = GetRows();
+			//生成靠右星號
+			string stars = GenerateRightStars(row);
+			//呈現星號
+			Display(stars);
+
 		}
 	}
 }

@@ -29,11 +29,11 @@
 		private void InitializeComponent()
 		{
 			this.lblRows = new System.Windows.Forms.Label();
-			this.btmLeft = new System.Windows.Forms.Button();
+			this.btnLeft = new System.Windows.Forms.Button();
 			this.txtRows = new System.Windows.Forms.TextBox();
 			this.txtResult = new System.Windows.Forms.TextBox();
-			this.btmMiddle = new System.Windows.Forms.Button();
-			this.btmRight = new System.Windows.Forms.Button();
+			this.btnMiddle = new System.Windows.Forms.Button();
+			this.btnRight = new System.Windows.Forms.Button();
 			this.lblInfo = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -47,16 +47,16 @@
 			this.lblRows.TabIndex = 0;
 			this.lblRows.Text = "列數 :";
 			// 
-			// btmLeft
+			// btnLeft
 			// 
-			this.btmLeft.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.btmLeft.Location = new System.Drawing.Point(246, 44);
-			this.btmLeft.Name = "btmLeft";
-			this.btmLeft.Size = new System.Drawing.Size(75, 32);
-			this.btmLeft.TabIndex = 1;
-			this.btmLeft.Text = "靠左對齊";
-			this.btmLeft.UseVisualStyleBackColor = true;
-			this.btmLeft.Click += new System.EventHandler(this.btmLeft_Click);
+			this.btnLeft.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.btnLeft.Location = new System.Drawing.Point(246, 44);
+			this.btnLeft.Name = "btnLeft";
+			this.btnLeft.Size = new System.Drawing.Size(75, 32);
+			this.btnLeft.TabIndex = 1;
+			this.btnLeft.Text = "靠左對齊";
+			this.btnLeft.UseVisualStyleBackColor = true;
+			this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
 			// 
 			// txtRows
 			// 
@@ -75,27 +75,27 @@
 			this.txtResult.TabIndex = 3;
 			this.txtResult.WordWrap = false;
 			// 
-			// btmMiddle
+			// btnMiddle
 			// 
-			this.btmMiddle.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.btmMiddle.Location = new System.Drawing.Point(246, 105);
-			this.btmMiddle.Name = "btmMiddle";
-			this.btmMiddle.Size = new System.Drawing.Size(75, 32);
-			this.btmMiddle.TabIndex = 4;
-			this.btmMiddle.Text = "等腰";
-			this.btmMiddle.UseVisualStyleBackColor = true;
-			this.btmMiddle.Click += new System.EventHandler(this.btmMiddle_Click);
+			this.btnMiddle.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.btnMiddle.Location = new System.Drawing.Point(246, 105);
+			this.btnMiddle.Name = "btnMiddle";
+			this.btnMiddle.Size = new System.Drawing.Size(75, 32);
+			this.btnMiddle.TabIndex = 4;
+			this.btnMiddle.Text = "等腰";
+			this.btnMiddle.UseVisualStyleBackColor = true;
+			this.btnMiddle.Click += new System.EventHandler(this.btnMiddle_Click);
 			// 
-			// btmRight
+			// btnRight
 			// 
-			this.btmRight.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.btmRight.Location = new System.Drawing.Point(246, 166);
-			this.btmRight.Name = "btmRight";
-			this.btmRight.Size = new System.Drawing.Size(75, 32);
-			this.btmRight.TabIndex = 5;
-			this.btmRight.Text = "靠右對齊";
-			this.btmRight.UseVisualStyleBackColor = true;
-			this.btmRight.Click += new System.EventHandler(this.btmRight_Click);
+			this.btnRight.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.btnRight.Location = new System.Drawing.Point(246, 166);
+			this.btnRight.Name = "btnRight";
+			this.btnRight.Size = new System.Drawing.Size(75, 32);
+			this.btnRight.TabIndex = 5;
+			this.btnRight.Text = "靠右對齊";
+			this.btnRight.UseVisualStyleBackColor = true;
+			this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
 			// 
 			// lblInfo
 			// 
@@ -113,11 +113,11 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(343, 242);
 			this.Controls.Add(this.lblInfo);
-			this.Controls.Add(this.btmRight);
-			this.Controls.Add(this.btmMiddle);
+			this.Controls.Add(this.btnRight);
+			this.Controls.Add(this.btnMiddle);
 			this.Controls.Add(this.txtResult);
 			this.Controls.Add(this.txtRows);
-			this.Controls.Add(this.btmLeft);
+			this.Controls.Add(this.btnLeft);
 			this.Controls.Add(this.lblRows);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
 			this.MaximizeBox = false;
@@ -132,11 +132,11 @@
 		#endregion
 
 		private System.Windows.Forms.Label lblRows;
-		private System.Windows.Forms.Button btmLeft;
+		private System.Windows.Forms.Button btnLeft;
 		private System.Windows.Forms.TextBox txtRows;
 		private System.Windows.Forms.TextBox txtResult;
-		private System.Windows.Forms.Button btmMiddle;
-		private System.Windows.Forms.Button btmRight;
+		private System.Windows.Forms.Button btnMiddle;
+		private System.Windows.Forms.Button btnRight;
 		private System.Windows.Forms.Label lblInfo;
 	}
 }
